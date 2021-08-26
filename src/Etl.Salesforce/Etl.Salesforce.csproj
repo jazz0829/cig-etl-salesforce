@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1DD0DCBB-0B01-4B34-B57F-98D94CB417CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eol.Cig.Etl.Salesforce</RootNamespace>
+    <AssemblyName>Etl.Salesforce</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AWSSDK.Core.3.3.22.5\lib\net45\AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Kinesis, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AWSSDK.Kinesis.3.3.4\lib\net45\AWSSDK.Kinesis.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.S3, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AWSSDK.S3.3.3.18.2\lib\net45\AWSSDK.S3.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\CsvHelper.2.16.3.0\lib\net45\CsvHelper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eol.Cig.Etl.Kinesis.Producer, Version=1.0.24.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Eol.Cig.Etl.Kinesis.Producer.1.0.24\lib\netstandard2.0\Eol.Cig.Etl.Kinesis.Producer.dll</HintPath>
+    </Reference>
+    <Reference Include="Etl.Shared, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Etl.Shared.1.0.2\lib\net452\Etl.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="LumenWorks.Framework.IO, Version=3.9.1.0, Culture=neutral, PublicKeyToken=5ad3ea2f85776344, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LumenWorksCsvReader.3.9.1\lib\net20\LumenWorks.Framework.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Logging.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Logging.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Options.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Primitives.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz, Version=2.5.0.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Quartz.2.5.0\lib\net40\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=4.4.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\StructureMap.4.4.4\lib\net45\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.CompilerServices.Unsafe.4.4.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Topshelf, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Topshelf.4.0.3\lib\net452\Topshelf.dll</HintPath>
+    </Reference>
+    <Reference Include="Topshelf.Log4Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Topshelf.Log4Net.4.0.3\lib\net452\Topshelf.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Topshelf.Quartz.StructureMap, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Topshelf.Quartz.StructureMap.0.6.0.0\lib\net45\Topshelf.Quartz.StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="Topshelf.StructureMap, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Topshelf.StructureMap.0.4.0.0\lib\net45\Topshelf.StructureMap.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AccountUploadResult.cs" />
+    <Compile Include="Common\AccountUploadResultMap.cs" />
+    <Compile Include="Configuration\Common\AwsConfiguration.cs" />
+    <Compile Include="Configuration\Common\IAwsConfiguration.cs" />
+    <Compile Include="Configuration\Common\ISalesforceSettings.cs" />
+    <Compile Include="Configuration\Common\SalesForceClient.cs" />
+    <Compile Include="Configuration\Common\ISalesForceClient.cs" />
+    <Compile Include="Configuration\ISalesforceConfiguration.cs" />
+    <Compile Include="Configuration\ISalesforceJobConfiguration.cs" />
+    <Compile Include="Configuration\SalesforceConfiguration.cs" />
+    <Compile Include="Configuration\SalesforceConfigurationSection.cs" />
+    <Compile Include="Configuration\SalesforceJobConfiguration.cs" />
+    <Compile Include="Configuration\SalesforceJobConfigurationCollection.cs" />
+    <Compile Include="Configuration\SalesforceJobElement.cs" />
+    <Compile Include="Configuration\Upload\ISalesforceUploadConfiguration.cs" />
+    <Compile Include="Configuration\Upload\ISalesforceUploadJobConfiguration.cs" />
+    <Compile Include="Configuration\Upload\SalesforceUploadConfiguration.cs" />
+    <Compile Include="Configuration\Upload\SalesforceUploadConfigurationSection.cs" />
+    <Compile Include="Configuration\Upload\SalesforceUploadJobConfiguration.cs" />
+    <Compile Include="Configuration\Upload\SalesforceUploadJobConfigurationCollection.cs" />
+    <Compile Include="Configuration\Upload\SalesforceUploadJobElement.cs" />
+    <Compile Include="Extract\Helpers.cs" />
+    <Compile Include="Extract\ISalesforceExtractor.cs" />
+    <Compile Include="Extract\ISalesforceExtractorFactory.cs" />
+    <Compile Include="Jobs\Export\CaseHistoryExport.cs" />
+    <Compile Include="Jobs\Export\ClassroomTrainingExport.cs" />
+    <Compile Include="Jobs\Export\IndividualEmailResultExport.cs" />
+    <Compile Include="Jobs\Export\TaskExport.cs" />
+    <Compile Include="Jobs\Export\WebActivityExport.cs" />
+    <Compile Include="Jobs\Export\CustomerNextBestActionExport.cs" />
+    <Compile Include="Jobs\Export\KeyEventExport.cs" />
+    <Compile Include="Jobs\Export\LiveAgentSessionExport.cs" />
+    <Compile Include="Jobs\Export\LiveChatButtonExport.cs" />
+    <Compile Include="Jobs\Export\LiveChatButtonSkillExport.cs" />
+    <Compile Include="Jobs\Export\LiveChatTranscriptEventExport.cs" />
+    <Compile Include="Jobs\Export\LiveChatTranscriptExport.cs" />
+    <Compile Include="Jobs\Export\LiveChatVisitorExport.cs" />
+    <Compile Include="Jobs\Export\SkillProfileExport.cs" />
+    <Compile Include="Jobs\Export\SkillUserExport.cs" />
+    <Compile Include="Jobs\Upload\CaseReasonsUpload.cs" />
+    <Compile Include="Jobs\Upload\CustomerNextBestActionsUpload.cs" />
+    <Compile Include="Jobs\Upload\KeyEventsUpload.cs" />
+    <Compile Include="Model\CaseHistory.cs" />
+    <Compile Include="Model\ClassroomTraining.cs" />
+    <Compile Include="Model\IndividualEmailResult.cs" />
+    <Compile Include="Model\Task.cs" />
+    <Compile Include="Model\WebActivity.cs" />
+    <Compile Include="Model\CustomerNextBestAction.cs" />
+    <Compile Include="Model\KeyEvent.cs" />
+    <Compile Include="Model\LiveAgentSession.cs" />
+    <Compile Include="Model\LiveChatButton.cs" />
+    <Compile Include="Model\LiveChatButtonSkill.cs" />
+    <Compile Include="Model\LiveChatTranscript.cs" />
+    <Compile Include="Model\LiveChatTranscriptEvent.cs" />
+    <Compile Include="Model\LiveChatVisitor.cs" />
+    <Compile Include="Model\SkillProfile.cs" />
+    <Compile Include="Model\SkillUser.cs" />
+    <Compile Include="Transform\CaseHistory\CaseHistoryCsvTransformer.cs" />
+    <Compile Include="Transform\CaseHistory\CaseHistoryMap.cs" />
+    <Compile Include="Transform\ClassroomTraining\ClassroomTrainingCsvTransformer.cs" />
+    <Compile Include="Transform\ClassroomTraining\ClassroomTrainingMap.cs" />
+    <Compile Include="Transform\CustomerNextBestAction\CustomerNextBestActionMap.cs" />
+    <Compile Include="Transform\CustomerNextBestAction\CustomerNextBestActionCsvTransformer.cs" />
+    <Compile Include="Transform\IndividualEmailResult\IndividualEmailResultCsvTransformer.cs" />
+    <Compile Include="Transform\IndividualEmailResult\IndividualEmailResultMap.cs" />
+    <Compile Include="Transform\KeyEvent\KeyEventCsvTransformer.cs" />
+    <Compile Include="Transform\KeyEvent\KeyEventMap.cs" />
+    <Compile Include="Transform\LiveAgentSession\LiveAgentSessionCsvTransformer.cs" />
+    <Compile Include="Transform\LiveAgentSession\LiveAgentSessionMap.cs" />
+    <Compile Include="Transform\LiveChatButtonSkill\LiveChatButtonSkillCsvTransformer.cs" />
+    <Compile Include="Transform\LiveChatButtonSkill\LiveChatButtonSkillMap.cs" />
+    <Compile Include="Transform\LiveChatButton\LiveChatButtonCsvTransformer.cs" />
+    <Compile Include="Transform\LiveChatButton\LiveChatButtonMap.cs" />
+    <Compile Include="Transform\LiveChatTranscriptEvent\LiveChatTranscriptEventCsvTransformer.cs" />
+    <Compile Include="Transform\LiveChatTranscriptEvent\LiveChatTranscriptEventMap.cs" />
+    <Compile Include="Transform\LiveChatTranscript\LiveChatTranscriptCsvTransformer.cs" />
+    <Compile Include="Transform\LiveChatTranscript\LiveChatTranscriptMap.cs" />
+    <Compile Include="Transform\LiveChatVisitor\LiveChatVisitorCsvTransformer.cs" />
+    <Compile Include="Transform\LiveChatVisitor\LiveChatVisitorMap.cs" />
+    <Compile Include="Transform\SkillProfile\SkillProfileCsvTransformer.cs" />
+    <Compile Include="Transform\SkillProfile\SkillProfileMap.cs" />
+    <Compile Include="Transform\SkillUser\SkillUserCsvTransformer.cs" />
+    <Compile Include="Transform\SkillUser\SkillUserMap.cs" />
+    <Compile Include="Transform\Task\TaskCsvTransformer.cs" />
+    <Compile Include="Transform\Task\TaskMap.cs" />
+    <Compile Include="Transform\WebActivity\WebActivityCsvTransformer.cs" />
+    <Compile Include="Transform\WebActivity\WebActivityMap.cs" />
+    <Compile Include="Upload\ISalesforceUploader.cs" />
+    <Compile Include="Upload\ISalesforceUploaderFactory.cs" />
+    <Compile Include="Extract\SalesforceBulkExtractor.cs" />
+    <Compile Include="Upload\SalesforceBulkUploader.cs" />
+    <Compile Include="Extract\SalesforceExtractorFactory.cs" />
+    <Compile Include="Upload\SalesforceUploaderFactory.cs" />
+    <Compile Include="IEtlJob.cs" />
+    <Compile Include="Jobs\Export\AccountExport.cs" />
+    <Compile Include="Jobs\Export\CaseCommentExport.cs" />
+    <Compile Include="Jobs\Export\CaseExport.cs" />
+    <Compile Include="Jobs\Export\ContactExport.cs" />
+    <Compile Include="Jobs\Export\ExportJob.cs" />
+    <Compile Include="Jobs\Upload\HealthScoreUpload.cs" />
+    <Compile Include="Jobs\Heartbeat.cs" />
+    <Compile Include="Jobs\Export\KnowledgeArticleVersionExport.cs" />
+    <Compile Include="Jobs\Export\RecordTypeExport.cs" />
+    <Compile Include="Jobs\Export\SurveyExport.cs" />
+    <Compile Include="Jobs\Export\TopicAssignmentExport.cs" />
+    <Compile Include="Jobs\Export\TopicExport.cs" />
+    <Compile Include="Jobs\Export\UserExport.cs" />
+    <Compile Include="Load\ISalesforceSqlServerUploader.cs" />
+    <Compile Include="Load\SalesforceSqlServerUploader.cs" />
+    <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\Case.cs" />
+    <Compile Include="Model\CaseComment.cs" />
+    <Compile Include="Model\Contact.cs" />
+    <Compile Include="Model\KnowledgeArticleVersion.cs" />
+    <Compile Include="Model\RecordType.cs" />
+    <Compile Include="Model\SalesforceObject.cs" />
+    <Compile Include="Model\Survey.cs" />
+    <Compile Include="Model\Topic.cs" />
+    <Compile Include="Model\TopicAssignment.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transform\Account\AccountMap.cs" />
+    <Compile Include="Transform\CaseComment\CaseCommentMap.cs" />
+    <Compile Include="Transform\CaseComment\CaseCommentCsvTransformer.cs" />
+    <Compile Include="Transform\Case\CaseMap.cs" />
+    <Compile Include="Transform\Case\CaseCsvTransformer.cs" />
+    <Compile Include="Transform\Contact\ContactMap.cs" />
+    <Compile Include="Transform\CsvTransformerHelper.cs" />
+    <Compile Include="Transform\CsvToDataTableTransformer.cs" />
+    <Compile Include="Transform\ISalesforceObjectTransformer.cs" />
+    <Compile Include="Transform\ISalesforceObjectTransformerFactory.cs" />
+    <Compile Include="Transform\Account\AccountCsvTransformer.cs" />
+    <Compile Include="Transform\Contact\ContactCsvTransformer.cs" />
+    <Compile Include="Transform\RecordType\RecordTypeMap.cs" />
+    <Compile Include="Transform\RecordType\RecordTypeCsvTransformer.cs" />
+    <Compile Include="Transform\SalesforceObjectTransformerFactory.cs" />
+    <Compile Include="Transform\StringToDateConverter.cs" />
+    <Compile Include="Transform\Survey\SurveyCsvTransformer.cs" />
+    <Compile Include="Transform\Survey\SurveyMap.cs" />
+    <Compile Include="Transform\TopicAssignment\TopicAssignmentCsvTransformer.cs" />
+    <Compile Include="Transform\TopicAssignment\TopicAssignmentMap.cs" />
+    <Compile Include="Transform\Topic\TopicCsvTransformer.cs" />
+    <Compile Include="Transform\Topic\TopicMap.cs" />
+    <Compile Include="Transform\User\UserCsvTransformer.cs" />
+    <Compile Include="Transform\User\UserMap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="logging.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="logging.config.token" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Etl.Salesforce.Client\Etl.Salesforce.Client.csproj">
+      <Project>{267b01b7-786c-4735-82ec-35be665f78db}</Project>
+      <Name>Etl.Salesforce.Client</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\packages\AWSSDK.Kinesis.3.3.4\analyzers\dotnet\cs\AWSSDK.Kinesis.CodeAnalysis.dll" />
+    <Analyzer Include="..\..\packages\AWSSDK.S3.3.3.18.2\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

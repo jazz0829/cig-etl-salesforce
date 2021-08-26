@@ -1,0 +1,113 @@
+﻿Id,AccountId,ContactId,CaseNumber,ClosedDate,CreatedDate,Description,IsClosed,IsDeleted,IsEscalated,LastModifiedDate,LastReferencedDate,LastViewedDate,Origin,Priority,Reason,RecordTypeId,Status,Subject,Type,CreatedById,LastModifiedById,OwnerId,Account_Number__c,Call_me_back__c,Case_subject__c,Date_Time_Answered__c,Enddate__c,Exact_Creation_Date__c,Exact_ID__c,Exact_Request_Number__c,Main_Reason__c,Planned_End_Date__c,Reject_Reason__c,Solution__c,Startdate__c,Start_Date__c,Sub_Reason__c,Owner_Role__c,Related_case__c,Account_Hosting_Environment__c,X2nd_Line_Help__c,Date_Time_Reopened__c,Number_of_times_reopened__c,Reason_Complaint__c,Sub_Reason_Complaint__c,Latest_chat_transcript__c,Last_Public_Case_Comment__c,Last_Public_Comment_Date__c,Related_Account__c,Related_Contact__c,Action_follow_up_date__c,Churn_Reason__c,Consultancy__c,ContactEmail,ContactFax,ContactMobile,ContactName__c,ContactPhone,Contact_FirstName__c,Customer_type__c,End_Stage_Check_up__c,End_Stage_Closing__c,End_Stage_New__c,End_Stage_Welcome__c,Number_of_outbound__c,Planned_go_live__c,Reason_for_no_consult__c,Stage_Closed__c,Stage_Phase__c
+50058000000UuNjAAK,0015700001oLPW1AAO,0035700001vwRCQAA2,829974,2016-01-30T19:30:52.000Z,2016-01-26T18:47:21.000Z,is er een resultaat-rapport met de bedragen inclusief BTW?,TRUE,FALSE,FALSE,2016-01-30T19:30:52.000Z,2017-09-14T12:19:53.000Z,2017-09-14T12:19:53.000Z,Web,Default,,01257000000QqMKAA0,Closed,rapporten,EOL Support Issue,00558000000RfijAAC,00557000006I08hAAC,00557000006I08hAAC,8074169,FALSE,Financial,2016-01-27T19:19:27.000Z,,,,,Accounting,,,"Een dergelijk overzicht is alleen via transacties zoeken te exporteren.<br>Financieel , grootboekrekeningen, overige, transacties:zoeken. via het gereedschapsicoon rechts kunt u de kolommen toevoegen.<br>Hier kunt u o.a. bedrag+ btw toevoegen. Vervolgens kunt u deze exporteren naar Excel en met formules de som uitrekenen.",,,Financial reports,CS Support Eindhoven,,NL,FALSE,,,,,,,,,,2019-11-25,,,,,,,,Gaston,New customer,2019-09-18T11:11:41.000Z,2019-09-24T07:19:27.000Z,,2019-07-25T08:29:55.000Z,0,,,2019-09-24T07:19:27.000Z,Closed
+50058000001Cj5OAAS,00158000002r7uAAAQ,00358000001z3KEAAY,873650,2016-04-02T12:00:07.000Z,2016-03-29T18:12:47.000Z,"Ik heb een licentie voor 2 administraties en 1 gebruiker. Kan ik een 2e administratie met een extra wachtwoord afschermen, indien met de inloggegevens van 1 gebruiker ingelogd wordt ?",TRUE,FALSE,FALSE,2016-04-02T12:00:07.000Z,,,Web,Default,,01257000000QqMKAA0,Closed,2e administratie,EOL Support Issue,00558000000TKlPAAW,00557000006I08mAAC,00557000006I08mAAC,11106835,FALSE,Financial,2016-03-30T11:52:21.000Z,,,,,Users,,"Oké, helder. Wat zijn de meerkosten ? Overigens dacht ik dat de 1e maand sowieso gratis was (proefperiode), maar ik heb nu al 3 x een incasso van Exact online ontvangen !","Dit is helaas niet mogelijk, want iedereen die op uw eerste gebruiker inlogt kan niet bij uw tweede administratie indien u hiervoor de toegangsrechten uitzet. Hiernaast kan iedereen die inlogt de toegangsrechten aanpassen. Waarmee zij zich ten alle tijden toegang kunnen verschaffen tot uw tweede administratie. De beste mogelijkheid is een tweede gebruiker aanmaken.<br><br>De extra kosten voor één administratie bedragen 12,50 euro per maand. Helaas kan ik u niet direct helpen met een creditfactuur. Deze kwestie kan u neerleggen bij onze orderadministratie via [Help, Neem contact op, Stel een vraag over uw factuur] als u via dit pad uw vraag ingeeft dan komt uw vraag terecht bij onze orderadministratie. Zij nemen dan een besluit over het crediteren van uw factuur en kunnen deze voor u crediteren. Ik hoop u hiermee voldoende te hebben geïnformeerd en wens u een fijne dag verder.<br><br> ",,,Access rights / Login,CS Support Delft,,NL,FALSE,,,,,,bla bla bla bla bla bla,2016-01-27T19:19:27.000Z,0014H00001lwgtiQAA,0034H00001w0mUVQAY,2019-07-25,,,,,,,,Ton,New customer,2019-07-25T09:28:50.000Z,2019-07-25T09:28:50.000Z,,2019-07-25T09:28:50.000Z,,,,2019-07-25T09:28:50.000Z,Closed
+50058000001BnYGAA0,0015700001oLSaBAAW,0035700001vwRkdAAE,855131,2016-03-03T09:45:38.000Z,2016-02-28T20:32:54.000Z,Een factuur kan ik niet opslaan,TRUE,FALSE,FALSE,2016-03-03T09:45:38.000Z,,,Web,Default,,01257000000QqMKAA0,Closed,Een factuur kan ik niet opslaan,EOL Bug request,00558000000TW90AAG,00557000006I08oAAC,00557000006I08oAAC,8159645,FALSE,Wholesale Distribution,2016-02-29T09:40:47.000Z,,,,,Other,,,De situatie met betrekking tot de oepsmelding is opgelost. Onze excuses voor het ongemak.,,,Error,CS Support Eindhoven,,NL,FALSE,,,,,,,,,,2019-11-01,,,,,,,,Sefa,New customer,2019-08-30T07:57:09.000Z,,,2019-07-25T09:52:57.000Z,0,,,,Closing
+50058000001BnYVAA0,0015700001oL8hQAAS,0035700001vwEpPAAU,855134,2016-05-16T15:16:07.000Z,2016-02-28T20:37:11.000Z,Sinds vandaag blijkt dat mijn rechten 'Project beheren' en 'Projecten bekijken' zijn uitgeschakeld. Dit terwijl ik kort geleden nog in staat was bijbehorende handelingen te verrichten. Inmiddels zijn de rechten weer ingeschakeld maar ik ben benieuwd hoe het kan dat deze rechten überhaupt zijn uitgeschakeld.,TRUE,FALSE,FALSE,2016-05-16T15:16:07.000Z,,,Phone,Default,,01257000000QqMKAA0,Closed,Hoe kan het dat mijn rechten m.b.t. projecten gewijzigd zijn?,EOL Support Issue,00558000000RfMeAAK,00558000000RfMeAAK,00558000000RfMeAAK,8087426,FALSE,,2016-05-13T15:05:27.000Z,,,,,Users,,,"Enige tijd geleden heeft u een vraag aan de supportafdeling van Exact Online gesteld. Om u van een passend antwoord te kunnen voorzien heb ik u destijds één of meerdere wedervragen gesteld. Helaas heb ik hierop geen antwoord mogen ontvangen. Om deze reden wordt dit verzoek afgesloten. Mocht de vraag nog steeds relevant zijn, dan kunt u door het antwoord te verwerpen een reactie geven.",,,User rights,Read Only Group,50058000001BnY1AAK,NL,FALSE,,,,,,,,,,2019-11-15,,,,,,,,Bob,New customer,2019-09-12T09:15:37.000Z,,,2019-07-25T11:52:32.000Z,0,,,,Closing
+50058000001FUGdAAO,00158000005m9fKAAQ,00358000006bFyBAAU,988397,2016-05-28T09:30:38.000Z,2016-05-23T06:31:21.000Z,"From: Roy van Velthoven | Van Velthoven Business Controllers [mailto:roy@businesscontrollers.nl]
+Sent: Friday, May 20, 2016 5:06 PM
+To: Service Online <sales@exactonline.nl>
+Subject: RE: Uw wachtwoord is gewijzigd
+
+  Vreemd,
+
+  Kunt u aangeven hoe dit verzoek bij u gekomen is?
+
+  Met vriendelijke groet
+  Van Velthoven, Businesscontrollers,
+
+
+
+Roy van Velthoven
+Ecu 2
+8305 BA Emmeloord
+T: 0527-624000
+M: 06-53 448 224
+www.businesscontrollers.nl<http://www.businesscontrollers.nl/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOAB-weblogo]<https://www.noab.nl/5-redenen-om-een-noab-lid-te-schakelen>
+
+
+
+
+
+  Nederlandse Orde van
+  Administratie- en Belastingdeskundigen
+  Lidnummer: 1929
+  www.noab.nl<http://www.noab.nl/>
+
+
+
+
+
+
+
+
+
+Van: info@exactonline.nl<mailto:info@exactonline.nl> [mailto:info@exactonline.nl]
+Verzonden: vrijdag 20 mei 2016 17:04
+Aan: Roy van Velthoven | Van Velthoven Business Controllers <roy@businesscontrollers.nl<mailto:roy@businesscontrollers.nl>>
+Onderwerp: Uw wachtwoord is gewijzigd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[http://static.exact.com/nl/email/img/Exact-Logo-150x36.png]
+
+Klantnummer: 11141901
+
+
+
+Bevestiging
+
+
+Beste heer van Velthoven,
+
+Op uw verzoek is uw wachtwoord gewijzigd. Uw nieuwe wachtwoord is: pRvA656W3C
+Uw gebruikersnaam blijft ongewijzigd.
+
+Met vriendelijke groet,
+Het Exact Online team
+
+
+
+
+
+U ontvangt deze e-mail omdat u gebruik maakt van Exact Online. Heeft u vragen over deze mail? Laat het ons weten via info@exactonline.nl<mailto:info@exactonline.nl> en vermeld daarbij uw klantnummer.
+
+Exact, Molengraaffsingel 33, 2629 JD Delft, Nederland.
+All content © Exact Software Nederland B.V. All rights reserved.
+www.exactonline.nl<http://www.exactonline.nl/> | Privacy Policy<http://www.exact.com/privacy-statement> | Terms of Use<http://www.exact.com/terms-and-conditions-of-use>",TRUE,FALSE,FALSE,2016-05-28T09:30:38.000Z,,,Email,Default,,01257000000QqMKAA0,Closed,FW: Uw wachtwoord is gewijzigd,EOL Support Issue,00557000006HonRAAS,00558000000RfMaAAK,00558000000RfMaAAK,11141901,FALSE,,2016-05-25T09:27:43.000Z,,,,,Users,,,"Wanneer u via start.exactonline.nl probeert in te loggen en dit lukt niet kunt u kiezen voor wachtwoord vergeten. Door middel van de gebruikersnaam en het e-mailadres kan het wachtwoord gereset worden. Daarnaast kan een gebruiker opbellen naar Exact Online Support en het wachtwoord vragen of het wachtwoord gereset kan worden. Dit wordt dan automatisch gestuurd naar het op dat moment al gekoppelde e-mailadres. Dit e-mailadres kan alleen door de gebruiker zelf gewijzigd worden. <br><br>In de hoop u zo voldoende te hebben geïnformeerd, wens ik u een prettige dag verder!",,,Access rights / Login,CS Support Delft,,NL,FALSE,,,,,,,,,,2019-11-05,,,,,,,,Freek,New customer,2019-08-22T11:01:25.000Z,,,2019-07-25T14:39:43.000Z,0,,,,Closing
+50058000001E8WzAAK,0015700001oLCDcAAO,0035700001vvu3HAAQ,955806,2016-04-23T08:28:49.000Z,2016-04-12T03:09:15.000Z,"Namens onze relatie Synergy in Business:
+Het is gewenst dat de projectnotities worden overgenomen als planningnotities.",TRUE,FALSE,FALSE,2016-04-23T08:28:49.000Z,,,Web,Default,,01257000000QqMKAA0,Closed,Planningnotities,EOL Solution Feedback,00557000006JV7BAAW,00557000006JV7BAAW,00557000006I08dAAC,9013148,FALSE,Project,2016-04-22T12:43:21.000Z,,,,,Professional_Services,,,"<p>De suggestie is goedgekeurd en wordt meegenomen in onze feedback. Helaas kan ik u niet garanderen dat de functionaliteit wordt ingebouwd. Meer informatie over dit proces kunt u terug lezen via <a href=""http://blogs.exact.com/support/2011/01/het-solution-feedback-proces"" target=""_blank""><font color=""#0066cc"">http://blogs.exact.com/support/2011/01/het-solution-feedback-proces</font></a></p>",,,Project,CS Support Zwolle,,NL,FALSE,,,,,,,,,,2019-11-25,,,,,,,,Gaston,New customer,2019-09-18T11:11:41.000Z,2019-09-24T07:19:27.000Z,,2019-07-25T08:29:55.000Z,0,,,2019-09-24T07:19:27.000Z,Closed
+50058000001E8YHAA0,00158000004FO4nAAG,00358000004F9C0AAK,955812,2016-04-16T09:00:11.000Z,2016-04-12T04:45:25.000Z,"Ik heb de bankkoppeling gedaan en gewacht tot de nachtsynchronisatie maar krijg nog niks binnen. 
+Wat kan dit zijn?",TRUE,FALSE,FALSE,2016-04-16T09:00:11.000Z,,,Web,Default,,01257000000QqMKAA0,Closed,Bankkoppeling,EOL Support Issue,00558000000xmPpAAI,00557000006I08oAAC,00557000006I08oAAC,11130573,FALSE,Financial,2016-04-13T08:53:49.000Z,,,,,Accounting,,,Ik kan helaas geen actieve bankkoppeling voor uw licentie vinden. Ik verwacht dus dat het koppelen niet correct is verlopen. Ik wil u daarom adviseren om de koppeling opnieuw aan te vragen.,,,Banking  make link/connection,CS Support Eindhoven,,NL,FALSE,,,,,,,,,,2019-07-25,,,,,,,,Ton,New customer,2019-07-25T09:28:50.000Z,2019-07-25T09:28:50.000Z,,2019-07-25T09:28:50.000Z,,,,2019-07-25T09:28:50.000Z,Closed
+50058000000UuPLAA0,0015700001oKybXAAS,0035700001vvq9RAAQ,829983,2016-01-31T15:15:57.000Z,2016-01-26T19:36:47.000Z,"In layouts ""herinneringen"" heb ik verschillende brieven opgeslagen met ook verschillende omschrijving/ onderwerp. Wanneer ik een brief aanmaak voor een relatie uit de layout ""herinneringen"", kan ik dit terugvinden onder documenten. Echter, elke brief wordt met hetzelfde onderwerp opgeslagen. Dit, terwijl elke brief een andere naam/ onderwerp  heeft. Hoe kan ik dit aanpassen? Is het mogelijk om in documenten de brief met het juiste onderwerp op te slaan vanuit ""herinneringen afdrukken""?",TRUE,FALSE,FALSE,2016-01-31T15:15:57.000Z,,,Web,Default,,01257000000QqMKAA0,Closed,Geprinten herinneringen met juiste onderwerp terugvinden in documenten,EOL Solution Feedback,00558000000SlnEAAS,00557000006I08yAAC,00557000006I08yAAC,8160989,FALSE,Financial,2016-01-28T15:03:54.000Z,,,,,Invoice,,"Bedankt voor uw antwoord, maar voor elke herinnering dat verstuurd wordt, handmatig het onderwerp aanpassen is nogal tijdrovend. Ik had al nl. ontdekt dat men achteraf het onderwerp kan aanpassen. Als dat incidenteel het geval zou zijn, is het geen probleem, maar wij versturen nogal wat brieven per week.<br>Is dit iets wat jullie in de software gaan aanpassen?<br> ",Op dit moment kan het onderwerp van de betalingsherinnering niet aangepast worden. Het zit nu in de software ingebouwd dat het onderwerp standaard &#39;betalingsherinnering&#39; wordt. U kunt wel na het afdrukken van de herinnering het onderwerp van het document aanpassen. U kunt dan via [CRM &gt; Relaties &gt; Onderhoud &gt; Open de relatie &gt; Documenten &gt; Klik op het onderwerp van het document &gt; Bewerken]. Nu kunt u het onderwerp aanpassen zodat het document juist is opgeslagen. Als u de herinnering ook met een ander onderwerp wil verzenden naar de klant kunt u er ook voor kiezen de herinnering eerst als document af te drukken. Vervolgens kunt via de relatiekaart het onderwerp van het document aanpassen en vanuit de relatiekaart de herinnering mailen met het aangepaste onderwerp. <br><br>​Fijne avond!,,,Reminders,CS Support Eindhoven,,NL,FALSE,,,,,,,,0014H00001kt9MGQAY,0034H00001vz7GFQAY,2019-11-01,,,,,,,,Sefa,New customer,2019-08-30T07:57:09.000Z,,,2019-07-25T09:52:57.000Z,0,,,,Closing
+50058000000UuPVAA0,0015700001oLB2VAAW,0035700001vw1VxAAI,829984,2016-01-30T09:00:56.000Z,2016-01-26T19:50:29.000Z,"Ik heb nieuwe klant ingericht, maar bij instantie kon ik niet kiezen voor jaaraangifte.
+Nu krijg ik brief belastingdienst dat aangifte niet volgens juiste tijdvak is, hoe kan ik dit corrigeren en opnieuw indienen.
+betreft klant van Gurp tuinen nr 900",TRUE,FALSE,FALSE,2016-01-30T09:00:56.000Z,,,Web,Default,,01257000000QqMKAA0,Closed,ik heb foutief maandaangifte loon gedaan moet jaaraangifte zijn,EOL Support Issue,00557000006JicvAAC,00557000006I08uAAC,00557000006I08uAAC,8026778,FALSE,Payroll,2016-01-27T08:56:17.000Z,,,,,Payroll,,,"Er kan in Exact Online helaas geen jaarlijkse aangifte worden gedaan voor de loonaangifte.<br><br>U kunt een jaarloner (d.w.z. een medewerker met de jaarlijkse frequentie die verloond is binnen een periode-datumtabel met de jaarlijkse frequentie) wel verlonen en maandelijkse aangiften doen, dan wordt er iedere maand een nihil aangifte gedaan behalve binnen de maand dat de boekingsdatum valt, binnen de loonaangifte van deze maand worden bedrag aangegeven.<br><br>Indien de Belastingdienst deze aangifte niet accepteert dient u de aangifte handmatig aan te maken op de site van de Belastingdienst.",,,Reports,CS Support Eindhoven,,NL,FALSE,,,,,,,,,,2019-11-15,,,,,,,,Bob,New customer,2019-09-12T09:15:37.000Z,,,2019-07-25T11:52:32.000Z,0,,,,Closing
+50058000000UrtDAAS,0015700001oKxtDAAS,0035700001vvx0FAAQ,828757,2016-01-28T18:15:42.000Z,2016-01-25T17:58:36.000Z,"in mijn administratie ontbreken een aantal verkoopboekingen waar de gehele boeking van is verdwenen?
+Hoe kan ik deze er tussen voegen?",TRUE,FALSE,FALSE,2016-01-28T18:15:42.000Z,,,Web,Default,,01257000000QqMKAA0,Closed,verkoop boekingen,EOL Support Issue,00557000006T4PcAAK,00557000006I09BAAS,00557000006I09BAAS,8016022,FALSE,Financial,2016-01-25T18:01:40.000Z,,,,,Accounting,,,"Via: financieel, boekingen overzicht ontbrekende boekstuknummers kunt u kijken welke boekstuknummers ontbreken. Vervolgens kunt u de boeking aanmaken via: Financieel, boekingen, invoeren boekingen, dagboek selecteren. U kunt dan, omdat de boeking nog niet is opgeslagen, het boekstuknummer aanpassen naar een ontbrekend nummer en de boeking maken.",,,Entering,CS Support Zwolle,,NL,FALSE,,,,,,,,,,2019-11-05,,,,,,,,Freek,New customer,2019-08-22T11:01:25.000Z,,,2019-07-25T14:39:43.000Z,0,,,,Closing

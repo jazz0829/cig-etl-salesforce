@@ -1,0 +1,11 @@
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\obj\Debug\Etl.Salesforce.Integration.csproj.CoreCompileInputs.cache
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\bin\Debug\Etl.Salesforce.Integration.dll.config
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\bin\Debug\Etl.Salesforce.Integration.dll
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\bin\Debug\Etl.Salesforce.Integration.pdb
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\bin\Debug\nunit.framework.dll
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\bin\Debug\TechTalk.SpecFlow.dll
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\bin\Debug\nunit.framework.xml
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\obj\Debug\Etl.Salesforce.Integration.dll
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\obj\Debug\Etl.Salesforce.Integration.pdb
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\obj\Debug\Etl.Salesforce.Integration.csprojAssemblyReference.cache
+D:\DataScience\cig-etl-salesforce\test\Etl.Salesforce.Integration\obj\Debug\Etl.Salesforce.Integration.csproj.CopyComplete

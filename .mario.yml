@@ -1,0 +1,19 @@
+Pipeline: dotnetcore
+Solution: Etl.Salesforce.sln
+ProGetFeeds:
+  - cig-nuget
+TestRunner: xunit
+SonarQubeProject:
+  Name: Exact Etl Salesforce
+  Key: exact-online-etl-salesforce
+PublishSettings:
+    Choco:
+      Name: exact-etl-salesforce
+      Summary: Exact Etl Salesforce
+      Description: Exact Etl Salesforce
+      ProjectUrl: https://github.exactsoftware.com/cloud-solutions/cig-etl-salesforce
+      Tags: 
+          - Exact
+          - CIG
+      IconUrl: https://proget.eu.exactsoftware.com/endpoints/images/content/FILE-BATCH.png
+      #Feed: https://proget.eu.exactsoftware.com/nuget/cig-chocolatey

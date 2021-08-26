@@ -1,0 +1,6 @@
+D:\DataScience\cig-etl-salesforce\src\Etl.Salesforce.Client\bin\Debug\Etl.Salesforce.Client.dll
+D:\DataScience\cig-etl-salesforce\src\Etl.Salesforce.Client\bin\Debug\Etl.Salesforce.Client.pdb
+D:\DataScience\cig-etl-salesforce\src\Etl.Salesforce.Client\obj\Debug\Etl.Salesforce.Client.csproj.CoreCompileInputs.cache
+D:\DataScience\cig-etl-salesforce\src\Etl.Salesforce.Client\obj\Debug\Etl.Salesforce.Client.dll
+D:\DataScience\cig-etl-salesforce\src\Etl.Salesforce.Client\obj\Debug\Etl.Salesforce.Client.pdb
+D:\DataScience\cig-etl-salesforce\src\Etl.Salesforce.Client\obj\Debug\Etl.Salesforce.Client.csprojAssemblyReference.cache
